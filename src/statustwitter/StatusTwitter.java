@@ -25,10 +25,10 @@ public class StatusTwitter {
         Twitter twitter;
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("R1wJ3p0He4NbjHcNEQMRBZCOy")
-                .setOAuthConsumerSecret("d3YEzh7A6PaZml2DPAuAsSUMelfMMfssCC29Nvf8wyHy6jDo18")
-                .setOAuthAccessToken("3063743111-zMOb1dugAFn3xP9ltPIMCLRwIhMGn0Kpu8h8RKt")
-                .setOAuthAccessTokenSecret("2dD7LfICbg4VOLDPdU2x0Qk0IjulGyLV2Gk0z6mIzsGV1");
+                .setOAuthConsumerKey("VnItYt2EEiPAymGQW01huMuXp")
+                .setOAuthConsumerSecret("aE5Dygm2VbzfH9BokMGAvTEPhfIrBPOJX2nRvQFKId1t6rhLAa")
+                .setOAuthAccessToken("779025319-KBKqeCiqBEXh0CqsvP8xL3wsSdmBWXEl2YGEqzQ4")
+                .setOAuthAccessTokenSecret("WJIrTUkKi2LbXMYsax0mRDcxz5PC1olzXKyVzAGTnZVfJ");
         twitter = new TwitterFactory(cb.build()).getInstance();
 
         Paging pagina = new Paging();
