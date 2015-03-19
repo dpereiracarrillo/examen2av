@@ -11,7 +11,7 @@ import twitter4j.TwitterFactory;
  * Clase para recobrar los twitts del morrazo
  * @author damian
  */
-public class StatusTwitter {
+public class StatusTwitter { 
 
     /**
      * @param args the command line arguments
